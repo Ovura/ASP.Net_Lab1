@@ -1,0 +1,52 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20220425094612_FourthRelationship.cs" />
+    <Compile Remove="Migrations\20220425094612_FourthRelationship.Designer.cs" />
+    <Compile Remove="Migrations\20220425161532_DataTypeCorrection.cs" />
+    <Compile Remove="Migrations\20220425161532_DataTypeCorrection.Designer.cs" />
+    <Compile Remove="Migrations\20220429101222_tablealter.cs" />
+    <Compile Remove="Migrations\20220429101222_tablealter.Designer.cs" />
+    <Compile Remove="Migrations\20220429103419_RelationshipUpdate.cs" />
+    <Compile Remove="Migrations\20220429103419_RelationshipUpdate.Designer.cs" />
+    <Compile Remove="Migrations\20220429103708_RelationshipUpdate.cs" />
+    <Compile Remove="Migrations\20220429103708_RelationshipUpdate.Designer.cs" />
+    <Compile Remove="Migrations\20220429103851_RelationshipUpdate.cs" />
+    <Compile Remove="Migrations\20220429103851_RelationshipUpdate.Designer.cs" />
+    <Compile Remove="Migrations\20220429104303_RelationshipUpdate.cs" />
+    <Compile Remove="Migrations\20220429104303_RelationshipUpdate.Designer.cs" />
+    <Compile Remove="Migrations\20220429104651_RelationshipUpdate.cs" />
+    <Compile Remove="Migrations\20220429104651_RelationshipUpdate.Designer.cs" />
+    <Compile Remove="Migrations\20220429105300_RelationshipUpdate1.cs" />
+    <Compile Remove="Migrations\20220429105300_RelationshipUpdate1.Designer.cs" />
+    <Compile Remove="Migrations\20220429110915_RelationshipUpdate2.cs" />
+    <Compile Remove="Migrations\20220429110915_RelationshipUpdate2.Designer.cs" />
+    <Compile Remove="Migrations\20220429213132_RelationshipUpdate.cs" />
+    <Compile Remove="Migrations\20220429213132_RelationshipUpdate.Designer.cs" />
+    <Compile Remove="Migrations\20220429213646_DatatypeChange.cs" />
+    <Compile Remove="Migrations\20220429213646_DatatypeChange.Designer.cs" />
+    <Compile Remove="Migrations\20220429221219_DatatypeChange.cs" />
+    <Compile Remove="Migrations\20220429221219_DatatypeChange.Designer.cs" />
+    <Compile Remove="Migrations\20220429221750_DatatypeChange.cs" />
+    <Compile Remove="Migrations\20220429221750_DatatypeChange.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.24" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.24">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.24" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.24">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>
